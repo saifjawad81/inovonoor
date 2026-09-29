@@ -1,0 +1,140 @@
+
+> the-smart-innovation@1.0.0 test
+> node --test tests/*.test.js
+
+TAP version 13
+# Subtest: both languages have matching structural keys
+ok 1 - both languages have matching structural keys
+  ---
+  duration_ms: 2.666701
+  type: 'test'
+  ...
+# Subtest: canonical solution and module IDs match both translations
+ok 2 - canonical solution and module IDs match both translations
+  ---
+  duration_ms: 0.210638
+  type: 'test'
+  ...
+# Subtest: valid inquiry passes all three stages
+ok 3 - valid inquiry passes all three stages
+  ---
+  duration_ms: 0.673696
+  type: 'test'
+  ...
+# Subtest: stage one does not require personal fields
+ok 4 - stage one does not require personal fields
+  ---
+  duration_ms: 0.091858
+  type: 'test'
+  ...
+# Subtest: location, facility, and timeline cannot silently default
+ok 5 - location, facility, and timeline cannot silently default
+  ---
+  duration_ms: 0.14584
+  type: 'test'
+  ...
+# Subtest: changing solution preserves contact and project data
+ok 6 - changing solution preserves contact and project data
+  ---
+  duration_ms: 0.15284
+  type: 'test'
+  ...
+# Subtest: selecting the same solution preserves compatible modules
+ok 7 - selecting the same solution preserves compatible modules
+  ---
+  duration_ms: 0.287504
+  type: 'test'
+  ...
+# Subtest: unknown solution does not corrupt the draft
+ok 8 - unknown solution does not corrupt the draft
+  ---
+  duration_ms: 0.102855
+  type: 'test'
+  ...
+# Subtest: changing presentation language does not translate stored identifiers
+ok 9 - changing presentation language does not translate stored identifiers
+  ---
+  duration_ms: 0.323007
+  type: 'test'
+  ...
+# Subtest: phone validation accepts Arabic and Persian digits
+ok 10 - phone validation accepts Arabic and Persian digits
+  ---
+  duration_ms: 0.460104
+  type: 'test'
+  ...
+# Subtest: email, phone, name, and consent errors are explicit
+ok 11 - email, phone, name, and consent errors are explicit
+  ---
+  duration_ms: 0.186752
+  type: 'test'
+  ...
+# Subtest: notes and email lengths are bounded
+ok 12 - notes and email lengths are bounded
+  ---
+  duration_ms: 0.108293
+  type: 'test'
+  ...
+# Subtest: attachments reject dangerous suffixes and oversized files
+ok 13 - attachments reject dangerous suffixes and oversized files
+  ---
+  duration_ms: 0.079359
+  type: 'test'
+  ...
+# Subtest: FormData includes the actual file bytes, canonical IDs and consent version
+ok 14 - FormData includes the actual file bytes, canonical IDs and consent version
+  ---
+  duration_ms: 17.193816
+  type: 'test'
+  ...
+# Subtest: endpoint validation allows HTTPS and local HTTP only
+ok 15 - endpoint validation allows HTTPS and local HTTP only
+  ---
+  duration_ms: 0.500715
+  type: 'test'
+  ...
+# Subtest: HTTP 200 alone is not a receipt
+ok 16 - HTTP 200 alone is not a receipt
+  ---
+  duration_ms: 2.803057
+  type: 'test'
+  ...
+# Subtest: HTML thank-you pages are not interpreted as successful receipts
+ok 17 - HTML thank-you pages are not interpreted as successful receipts
+  ---
+  duration_ms: 0.491861
+  type: 'test'
+  ...
+# Subtest: valid service acknowledgement returns only its reference
+ok 18 - valid service acknowledgement returns only its reference
+  ---
+  duration_ms: 0.551672
+  type: 'test'
+  ...
+# Subtest: server errors do not generate local receipt IDs
+ok 19 - server errors do not generate local receipt IDs
+  ---
+  duration_ms: 0.201404
+  type: 'test'
+  ...
+# Subtest: network errors propagate without deleting source data
+ok 20 - network errors propagate without deleting source data
+  ---
+  duration_ms: 0.142155
+  type: 'test'
+  ...
+# Subtest: full brief preserves notes and bilingual labels
+ok 21 - full brief preserves notes and bilingual labels
+  ---
+  duration_ms: 0.370679
+  type: 'test'
+  ...
+1..21
+# tests 21
+# suites 0
+# pass 21
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 91.561152

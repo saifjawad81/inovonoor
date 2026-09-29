@@ -1,0 +1,88 @@
+{
+  "runtime": "Chromium; local inline-module harness with cached React 19.1.1; not Vite production bundle",
+  "tests": [
+    {
+      "test": "en layout at 1440px",
+      "status": "PASS",
+      "horizontalOverflow": false
+    },
+    {
+      "test": "en layout at 1024px",
+      "status": "PASS",
+      "horizontalOverflow": false
+    },
+    {
+      "test": "en layout at 768px",
+      "status": "PASS",
+      "horizontalOverflow": false
+    },
+    {
+      "test": "en layout at 390px",
+      "status": "PASS",
+      "horizontalOverflow": false
+    },
+    {
+      "test": "en layout at 320px",
+      "status": "PASS",
+      "horizontalOverflow": false
+    },
+    {
+      "test": "ar layout at 1440px",
+      "status": "PASS",
+      "horizontalOverflow": false
+    },
+    {
+      "test": "ar layout at 1024px",
+      "status": "PASS",
+      "horizontalOverflow": false
+    },
+    {
+      "test": "ar layout at 768px",
+      "status": "PASS",
+      "horizontalOverflow": false
+    },
+    {
+      "test": "ar layout at 390px",
+      "status": "PASS",
+      "horizontalOverflow": false
+    },
+    {
+      "test": "ar layout at 320px",
+      "status": "PASS",
+      "horizontalOverflow": false
+    },
+    {
+      "test": "Solution expansion",
+      "status": "PASS"
+    },
+    {
+      "test": "Step validation and focus",
+      "status": "PASS"
+    },
+    {
+      "test": "Language preserves contact fields and consent",
+      "status": "PASS"
+    },
+    {
+      "test": "Manual preparation never reports sent",
+      "status": "PASS"
+    },
+    {
+      "test": "Email handoff includes encoded contact",
+      "status": "PASS"
+    },
+    {
+      "test": "Full-brief download includes notes",
+      "status": "PASS"
+    },
+    {
+      "test": "Pillar change preserves project and contact data",
+      "status": "PASS"
+    },
+    {
+      "test": "Browser JavaScript exceptions",
+      "status": "PASS",
+      "count": 0
+    }
+  ]
+}
